@@ -1,0 +1,40 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    border-bottom: 1px solid lightgray;
+}
+
+.smile {
+    font-size: 40px;
+}
+
+.count {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    border-radius: 50%;
+    border: 2px solid green;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    box-shadow: 0px 1px 20px -7px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 0px 1px 20px -7px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 1px 20px -7px rgba(0,0,0,0.63);
+}
+
+.smileDescription {
+    text-align: left;
+    max-width: 400px;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.ratingBtn {
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: lightgray;
+}
